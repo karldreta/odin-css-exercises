@@ -61,3 +61,14 @@ button {
 .backdrop.show {
   opacity: 30%;
 }
+
+/* Solution */
+
+.popup-modal {
+  top: 0%;
+  transition: ease-in-out .5s, opacity 0.5s ease;
+}
+
+.popup-modal.show {
+  top: 50%;
+}
