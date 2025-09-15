@@ -44,11 +44,14 @@ ul.dropdown-menu li:hover {
     transform: rotateX(90deg);
   }
 
-  50% {
+  75% {
+    /* transform: translateY(20%); */
     transform: rotateX(45deg);
+    transform: scaleY(1.1);
   }
 
   to {
     transform: rotateX(0deg);
+    transform: scaleY(1);
   }
 }
