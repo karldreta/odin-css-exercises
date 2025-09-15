@@ -10,6 +10,7 @@
 
 .menu-title {
   background-color: rgb(163, 162, 162);
+  /* background-color: red; */
 }
 
 .dropdown-menu {
@@ -29,4 +30,25 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* Solution */
 
+.visible {
+  /* border: 1px solid blue; */
+  transform-origin: 0 0;
+  animation: 1s to-bounce 1 linear;
+
+}
+
+@keyframes to-bounce {
+  from {
+    transform: rotateX(90deg);
+  }
+
+  50% {
+    transform: rotateX(45deg);
+  }
+
+  to {
+    transform: rotateX(0deg);
+  }
+}
